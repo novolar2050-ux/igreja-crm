@@ -18,9 +18,9 @@ export interface Church {
 }
 
 export interface Member {
-  id: string;
+  id?: string;
   igreja_id?: string;
-  full_name: string;
+  full_name?: string;
   email?: string;
   phone?: string;
   address?: string;
