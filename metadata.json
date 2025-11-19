@@ -1,0 +1,5 @@
+{
+  "name": "Ecclesia CRM - Multi-Igreja",
+  "description": "Um sistema de gestão de igrejas multi-inquilino com módulos para Membros, Finanças e Ministérios, protegido por RLS.",
+  "requestFramePermissions": []
+}
