@@ -19,16 +19,16 @@ export interface Church {
 
 export interface Member {
   id: string;
-  igreja_id: string;
+  igreja_id?: string;
   full_name: string;
   email?: string;
   phone?: string;
   address?: string;
   baptism_date?: string;
   birth_date?: string;
-  role_type: 'Member' | 'Pastor' | 'Leader' | 'Visitor';
-  status: 'Active' | 'Inactive';
-  created_at: string;
+  role_type?: 'Member' | 'Pastor' | 'Leader' | 'Visitor';
+  status?: 'Active' | 'Inactive';
+  created_at?: string;
 }
 
 export interface Transaction {
